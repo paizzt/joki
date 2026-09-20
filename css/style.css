@@ -1,10 +1,10 @@
 /* Minimal Reset & CSS Variables */
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
-    --primary-light: #eff6ff;
-    --secondary: #10b981;
-    --secondary-dark: #059669;
+    --primary: #0a192f;
+    --primary-dark: #020c1b;
+    --primary-light: #e0e7ff;
+    --secondary: #fbbf24;
+    --secondary-dark: #f59e0b;
     --bg: #f8fafc;
     --surface: #ffffff;
     --text: #0f172a;
@@ -122,9 +122,9 @@ p { margin-bottom: 1rem; color: var(--text-light); }
 
 .btn-wa {
     background-color: var(--secondary);
-    color: #fff;
+    color: var(--text);
 }
-.btn-wa:hover { background-color: var(--secondary-dark); color: #fff; }
+.btn-wa:hover { background-color: var(--secondary-dark); color: var(--text); }
 
 .btn-wa-light {
     background-color: #fff;
