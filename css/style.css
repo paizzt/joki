@@ -296,6 +296,13 @@ p { margin-bottom: 1rem; color: var(--text-light); }
 @media (min-width: 640px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }
 
+.testimoni-grid { grid-template-columns: 1fr; }
+@media (min-width: 640px) { .testimoni-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .testimoni-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.p-0 { padding: 0; overflow: hidden; }
+.testimoni-grid img { width: 100%; height: auto; object-fit: cover; display: block; border-radius: inherit; }
+
 .service-card h3 { color: var(--primary); }
 
 /* Referral Steps */
